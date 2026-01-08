@@ -1,0 +1,17 @@
+/* 100 % рабочий минимум */
+* {
+    transition: none;
+}
+
+.message {
+    margin: 1 0;
+    padding: 1;
+}
+
+.message.user {
+    background: #113311;   /* тёмно-зелёный */
+}
+
+.message.assistant {
+    background: #112233;   /* тёмно-синий */
+}
