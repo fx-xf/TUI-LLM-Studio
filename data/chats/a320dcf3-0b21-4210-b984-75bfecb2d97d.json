@@ -1,0 +1,22 @@
+{
+  "id": "a320dcf3-0b21-4210-b984-75bfecb2d97d",
+  "title": "Без названия",
+  "messages": [
+    {
+      "role": "user",
+      "content": "GПривет напиши Hello World на python",
+      "timestamp": "2026-01-10T00:30:00.570121"
+    }
+  ],
+  "created_at": "2026-01-10T00:30:00.570121",
+  "updated_at": "2026-01-10T00:30:00.570121",
+  "model_config": {
+    "system_template": "<|im_start|>system\nYou are DeepSeek Coder, a helpful AI assistant specialized in programming and technical tasks.<|im_end|>\n",
+    "user_template": "<|im_start|>user\n{{ message }}<|im_end|>\n",
+    "assistant_template": "<|im_start|>assistant\n{{ message }}<|im_end|>\n",
+    "stop_sequences": [
+      "<|im_end|>",
+      "<|endoftext|>"
+    ]
+  }
+}

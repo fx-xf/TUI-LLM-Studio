@@ -1,7 +1,6 @@
-textual>=0.41.0
 torch>=2.1.0
-transformers>=4.35.0
-accelerate>=0.24.0
-bitsandbytes>=0.41.0  # Для 4-битной квантизации
-pydantic>=2.0.0
-aiofiles>=23.0.0
+transformers>=4.38.0
+prompt-toolkit>=3.0.43
+gguf>=0.6.0
+numpy>=1.24.0
+tqdm>=4.65.0
